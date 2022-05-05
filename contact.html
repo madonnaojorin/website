@@ -1,0 +1,42 @@
+<?php 
+include 'php_files/header.php';
+?>
+<title>Contact - Nao Yamamoto</title>
+
+<?php 
+include 'php_files/guide.php';
+?>
+
+<h1 style="text-align: center;">Contact</h1>
+<div style="height: 50px;"></div>
+
+
+<body>
+
+    <form action="confirm.php" method="post">
+
+        <div class="item">
+            <label class="label" for="name">Name</label>
+            <input id="name" type="text" name="yourname">
+        </div>
+
+        <div class="item">
+            <label class="label" for="email">Email address</label>
+            <input id="email" type="email" name="email" placeholder="example@gmail.com">
+        </div>
+
+        <div class="item">
+            <label class="label" for="textarea-item">Message</label>
+            <textarea id="textarea-item"></textarea>
+        </div>
+
+        <div class="btn">
+            <button type="submit">Send</button>
+        </div>
+
+    </form>
+
+</body>
+<?php 
+include 'php_files/footer.php';
+?>
